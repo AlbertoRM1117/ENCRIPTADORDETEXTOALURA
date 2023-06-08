@@ -1,0 +1,144 @@
+html{
+    background-image: linear-gradient(130deg, #9cf7ba,#8af5a5,rgb(111, 241, 144),rgb(8, 234, 250),#1eb0f3e1,rgb(52, 145, 252));
+   width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ header{
+    width: 980px;
+    margin: 0 auto;
+    height: 90px;
+    
+ }
+ h1{
+    width: 100%;
+    text-align: left;
+    font-size: 43px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 0px white;
+    color: black;
+
+ }
+
+ main{
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+
+ }
+
+ .caja-principal{
+    position: relative;
+    width: 47%;
+    height: 630px;
+    box-sizing: border-box;
+    margin: 0px 10px;
+    display: inline-block;
+    
+ }
+
+ .introducir-mensajes{
+    width: 95%;
+    margin: 0 8px;
+    height: 85%;
+    resize: none;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.342);
+    box-shadow: 5px 5px 2px rgba(15, 14, 14, 0.473);
+ }
+
+ h4{
+    font-size: 14px;
+    position: absolute;
+    left: 15px;
+ }
+
+ .botones{
+    width: 96%;
+    background: red;
+    margin: 0 10px;
+    position: absolute;
+    bottom: 5px;
+ }
+
+ .btn-todos{
+    width: 210px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgba(9, 255, 0, 0.555);
+    
+ }
+
+ #btn-encriptar{
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+ }
+
+ #btn-desencriptar{
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+ }
+
+ .caja-resultados{
+    width: 47%;
+    
+    position: relative;
+    height: 630px;
+    margin: 0 10px;
+    float: right;
+    box-sizing: border-box;
+
+    
+ }
+
+ .resultado-mensajes{
+    width: 95%;
+    font-size: 18px;
+    margin: 0 8px;
+    height: 85%;
+    resize: none;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px rgba(15, 14, 14, 0.473);
+ }
+
+ .muneco{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+ }
+
+ .parrafo{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 150px;
+    left: 60px;
+ }
+
+ #btn-copiar{
+    position: absolute;
+    bottom: 8px;
+    left: 80px;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    
+
+ }
+
+ .ocultar{
+    display: none;
+ }
